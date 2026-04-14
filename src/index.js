@@ -20,7 +20,7 @@ export default {
       };
 
       // ৪. আপনার FastAPI ব্যাকএন্ডে ডেটা পাঠানো (Webhook)
-      const response = await fetch("https://api.yourdomain.com/webhook/email", {
+      const response = await fetch("https://mail.softrise.app/webhook/email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
